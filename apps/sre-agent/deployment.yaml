@@ -18,4 +18,4 @@ spec:
       - name: agent
         # 关键：必须写完整镜像名 localhost/sre-agent:v1.0
         image: localhost/sre-agent:v1.0
-        imagePullPolicy: IfNotPresent  # 必须保留，使用本地镜像
+        imagePullPolicy: Never  # 必须保留，使用本地镜像
